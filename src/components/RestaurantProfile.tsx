@@ -1,5 +1,5 @@
 import { useState } from "react";
-import type { IRestaurant } from "../types";
+import type { IRestaurant } from "../type";
 import axios from "axios";
 import { restaurantService } from "../main";
 import toast from "react-hot-toast";
