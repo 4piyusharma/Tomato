@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 type Role = "customer" | "rider" | "seller" | "null";
 
 const SelectRole = () => {
-  const [role, setRole] = useState<Role>(null);
+  const [role, setRole] = useState<Role | null>(null);
 
   const { setUser } = useAppData();
   const navigate = useNavigate();
